@@ -37,4 +37,3 @@ BSD
 Author Information
 ------------------
 Empire: https://www.powershellempire.com
-An optional section for the role authors to include contact information, or a website (HTML is not allowed).
