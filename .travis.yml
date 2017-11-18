@@ -1,2 +1,12 @@
+---
+language: python
+python: "3.6"
+
+before_install:
+    - sudo apt-get update -qq
+
+install:
+    - pip3 install ansible
+
 notifications:
-    webhooks: https://galaxy.ansible.com/api/v1/notifications/
+  webhooks: https://galaxy.ansible.com/api/v1/notifications/
