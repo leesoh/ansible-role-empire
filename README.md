@@ -1,4 +1,4 @@
-Role Name
+Empire
 =========
 
 Ansible role for Empire that installs on all distros.
