@@ -1,7 +1,7 @@
 galaxy_info:
   author: liam somerville
-  description: 
-  company: 
+  description:
+  company:
   license: BSD
   min_ansible_version: 1.2
   platforms:
@@ -10,6 +10,6 @@ galaxy_info:
     - all
   galaxy_tags:
     - security
-    - post-exploitation
+    - pentest
 
 dependencies: []
