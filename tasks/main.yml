@@ -1,0 +1,19 @@
+---
+- name: Clone Empire
+  become: true
+  git:
+    repo: https://github.com/EmpireProject/Empire.git
+    dest: "{{ empire_git_location }}/empire"
+    update: yes
+
+- name: Check for existing Empire database
+  stat:
+    path: "{{ empire_git_location }}/empire/data/empire.db"
+  register: stat_result
+
+- name: Install Empire
+  become: true
+  when: stat_result.stat.exists == False
+  environment:
+    SETUP_KEY: "RANDOM"
+  command: "{{ empire_git_location }}/empire/setup/install.sh"
