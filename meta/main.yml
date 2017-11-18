@@ -1,6 +1,6 @@
 galaxy_info:
   author: liam somerville
-  description: Empire post-exploitation framework
+  description: Installs the Empire post-exploitation framework
   company:
   license: BSD
   min_ansible_version: 1.2
