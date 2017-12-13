@@ -15,4 +15,5 @@ galaxy_info:
     - security
     - pentest
 
-dependencies: []
+  dependencies:
+    - leesoh.git

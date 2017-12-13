@@ -18,7 +18,7 @@ Role variables:
 Dependencies
 ------------
 
-None
+leesoh.git
 
 Example Playbook
 ----------------
