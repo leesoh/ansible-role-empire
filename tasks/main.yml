@@ -15,5 +15,7 @@
   become: true
   when: stat_result.stat.exists == False
   environment:
-    SETUP_KEY: "RANDOM"
+    SETUP_KEY: RANDOM
   command: "{{ empire_git_location }}/empire/setup/install.sh"
+  args:
+    chdir: "{{ empire_git_location }}"
